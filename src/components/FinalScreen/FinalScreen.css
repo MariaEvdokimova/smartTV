@@ -1,0 +1,143 @@
+/*wrapper*/
+
+.slider__wrapper {
+    width: 1280px;
+    height: 720px;
+}
+
+/* out */
+.out {
+    position: absolute;
+    width: 88px;
+    height: 52px;
+    padding: 0;
+    top: 14px;
+    right: 0;
+    background-color: white;
+    border: none;
+}
+
+.out:before,
+.out:after {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 32px;
+    width: 29px;
+    height: 3px;
+    background-color: black;
+
+    transform: rotate(-45deg);
+}
+
+.out:after {
+    transform: rotate(45deg);
+}
+
+/* out focus active*/
+
+.out:focus,
+.out:active {
+    background-color: black;
+}
+
+.out:focus:before,
+.out:active:before,
+.out:focus:after,
+.out:active:after{
+    background-color: white;
+}
+
+/*frame*/
+
+.frame1 {
+    width: 1280px;
+    height: 720px;
+    background: url(/src/assets/img/image1.png) 0 0 no-repeat;
+}
+
+.frame2 {
+    width: 1280px;
+    height: 720px;
+    background: url(/src/assets/img/image3.png) 0 0 no-repeat;
+}
+
+.frame3 {
+    width: 1280px;
+    height: 720px;
+    background: url(/src/assets/img/image2.png) 0 0 no-repeat;
+}
+
+/*slick*/
+
+.slick-arrow {
+    margin-top: 295px;
+    width: 72px;
+    height: 36px;
+    background: #E8E8E8;
+
+    -webkit-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    transform: skew(-30deg);
+}
+
+.slick-prev {
+    z-index: 1;
+    margin-left: 572px;
+}
+
+.slick-next {
+    margin-right: 596px;
+}
+
+.slick-prev:before,
+.slick-next:before,
+.slick-prev:after,
+.slick-next:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 29px;
+    width: 8px;
+    height: 2px;
+    background-color: black;
+
+    transform: rotate(-45deg);
+}
+
+.slick-prev:before,
+.slick-next:before {
+    transform: rotate(45deg);
+}
+
+.slick-prev:before {
+    top: 20px;
+    left: 29px;
+}
+
+.slick-next:after {
+    top: 20px;
+    left: 29px;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus{
+    background-color: black;
+}
+
+.slick-prev:hover:before,
+.slick-next:hover:before,
+.slick-prev:hover:after,
+.slick-next:hover:after,
+.slick-prev:focus:before,
+.slick-next:focus:before,
+.slick-prev:focus:after,
+.slick-next:focus:after,
+.slick-prev:active:before,
+.slick-next:active:before,
+.slick-prev:active:after,
+.slick-next:active:after {
+    background-color: #E8E8E8;
+}

@@ -148,6 +148,10 @@
     border-color: #4E4E4E;
 }
 
+.button:focus {
+    outline: solid;
+}
+
 /* out */
 
 .out {
