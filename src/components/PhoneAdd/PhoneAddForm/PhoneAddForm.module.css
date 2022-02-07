@@ -1,0 +1,193 @@
+/*form*/
+
+.form {
+    position: relative;
+    width: 315px;
+    margin: 0 auto;
+}
+
+/*addNumberText*/
+
+.addNumberText {
+    margin: 72px auto 13px;
+}
+
+/*phone*/
+
+.phone {
+    display: block;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    align-items: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+
+    width: 315px;
+    background-color: transparent;
+    border: none;
+    margin: 0 auto 13px;
+}
+
+.phone :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+/*sign__text*/
+
+.sign__text {
+    margin-bottom: 40px;
+}
+
+/*keyboard*/
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 284px;
+    margin: 0 auto 30px;
+}
+
+.keyboard__button {
+    font-size: 16px;
+    width: 88px;
+    height: 52px;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    background-color: transparent;
+
+    margin-bottom: 10px;
+}
+
+.keyboard__button:active,
+.keyboard__button:focus {
+    background-color: black;
+    color: white;
+}
+
+.keyboard__backspace {
+    width: 186px;
+    text-transform: uppercase;
+}
+
+/* agreement check_box */
+
+.agreement {
+    margin-bottom: 19px;
+}
+
+.check__input {
+    position: absolute;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.check__box {
+    position: absolute;
+    margin-left: 25px;
+    width: 40px;
+    height: 40px;
+    background: url(/src/assets/img/rectangle.png) 0 0 no-repeat;
+}
+
+.check__input:checked + .check__box:before {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 13px;
+    width: 23px;
+    height: 3px;
+    background-color: #000000;
+
+    transform: rotate(-45deg);
+}
+
+.check__input:checked + .check__box:after {
+    content: "";
+    position: absolute;
+    top: 21px;
+    left: 10px;
+    width: 8px;
+    height: 3px;
+    background-color: #000000;
+
+    transform: rotate(45deg);
+}
+
+.agreement > img {
+    width: 150px;
+    margin: 5px 0 0 85px;
+}
+
+/* button */
+
+.button {
+    display: block;
+    padding: 16px 48px;
+    margin: 0 auto;
+    background-color: black;
+    border: 1px solid black;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.button:disabled {
+    background-color: transparent;
+    color: #4E4E4E;
+    border-color: #4E4E4E;
+}
+
+/* out */
+
+.out {
+    position: absolute;
+    width: 88px;
+    height: 52px;
+    padding: 0;
+    top: 14px;
+    right: -909px;
+    background-color: white;
+    border: none;
+}
+
+.out:before,
+.out:after {
+    content: "";
+    position: absolute;
+    top: 23px;
+    left: 32px;
+    width: 29px;
+    height: 3px;
+    background-color: black;
+
+    transform: rotate(-45deg);
+}
+
+.out:after {
+    transform: rotate(45deg);
+}
+
+/* out  focus active*/
+
+.out:focus,
+.out:active {
+    background-color: black;
+}
+
+.out:focus:before,
+.out:active:before,
+.out:focus:after,
+.out:active:after{
+    background-color: white;
+}

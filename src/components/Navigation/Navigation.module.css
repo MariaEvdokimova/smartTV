@@ -1,0 +1,24 @@
+/*nav*/
+
+.nav {
+    position: absolute;
+    top: 50%;
+    margin-left: 1220px;
+}
+
+.nav__prev,
+.nav__next {
+    display: block;
+    width: 40px;
+    height: 40px;
+    font-size: 0;
+}
+
+.nav__prev {
+    margin-bottom: 10px;
+    background: url(/src/assets/img/arrow-left.png) 0 0 no-repeat;
+}
+
+.nav__next {
+    background: url(/src/assets/img/arrow-right.png) 0 0 no-repeat;
+}

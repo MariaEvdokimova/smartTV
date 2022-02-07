@@ -1,0 +1,36 @@
+/*wrapper*/
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 1280px;
+    height: 720px;
+    background-image: url(/src/assets/img/scale1200.png);
+}
+
+/*panel*/
+
+.panel {
+    width: 380px;
+    height: 720px;
+    background-color: #86D3F4;
+}
+
+/*final__text*/
+
+.final__text {
+    width: 284px;
+    height: 123px;
+    margin: 265px auto 0;
+    background-image: url(/src/assets/img/frame46.png);
+}
+
+/*frame*/
+
+.frame {
+    align-self: flex-end;
+    width: 314px;
+    height: 110px;
+    margin: 40px;
+    background-image: url(/src/assets/img/frame54.png);
+}

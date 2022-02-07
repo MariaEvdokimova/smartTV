@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import {Video} from "./components/Video/Video";
+import {PhoneAdd} from "./components/PhoneAdd/PhoneAdd";
+import {Route, Routes } from 'react-router-dom';
+import {FinalScreen} from "./components/FinalScreen/FinalScreen";
 
-function App() {
+export const App: React.FC = () => {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='app__wrapper'>
+          <Routes >
+              <Route path='/' element={<Video />} />
+              <Route path='/phone' element={<PhoneAdd />}/>
+              <Route path='/final' element={<FinalScreen />}/>
+          </Routes >
+      </div>
   );
 }
-
-export default App;

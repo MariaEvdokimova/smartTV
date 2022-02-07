@@ -1,0 +1,32 @@
+/*video*/
+
+.video {
+    position: absolute;
+    width: 1280px;
+    height: 721px;
+    left: 0;
+    top: 0;
+
+    background-image: url(/src/assets/img/video.png);
+}
+
+/*banner*/
+
+.banner {
+    position: absolute;
+    width: 251px;
+    height: 410px;
+    right: 0;
+    top: 167px;
+    font-size: 0;
+    background-image: url(/src/assets/img/banner.png);
+
+    opacity: 0;
+}
+
+/*banner__open*/
+
+.banner__open {
+    opacity: 1;
+    transition: 1s;
+}
