@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/smartTV/static/css/main.a682f071.css",
-    "main.js": "/smartTV/static/js/main.bce70f0a.js",
+    "main.js": "/smartTV/static/js/main.ca74898f.js",
     "static/media/video.png": "/smartTV/static/media/video.7d4475d17a76b63ecb88.png",
     "static/media/image2.png": "/smartTV/static/media/image2.297c183c53b8a04cfbf8.png",
     "static/media/scale1200.png": "/smartTV/static/media/scale1200.2053147985b2138e24ad.png",
@@ -14,10 +14,10 @@
     "static/media/slick.woff": "/smartTV/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/smartTV/index.html",
     "main.a682f071.css.map": "/smartTV/static/css/main.a682f071.css.map",
-    "main.bce70f0a.js.map": "/smartTV/static/js/main.bce70f0a.js.map"
+    "main.ca74898f.js.map": "/smartTV/static/js/main.ca74898f.js.map"
   },
   "entrypoints": [
     "static/css/main.a682f071.css",
-    "static/js/main.bce70f0a.js"
+    "static/js/main.ca74898f.js"
   ]
 }
